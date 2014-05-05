@@ -529,6 +529,8 @@
 \newcommand{\halt}{\mathtt{halt}}
 \newcommand{\abort}{\mathtt{abort}}
 
+\newcommand{\state}{\mathsf{state}}
+
 \newcommand{\sList}[1]{\mathsf{#1}\mbox{-}\mathsf{List}}
 \newcommand{\ring}{\mathsf{R}}
 \newcommand{\ifun}[2]{\mathcal{F}_\mathrm{#1}^{#2}}
@@ -545,7 +547,8 @@
 \newcommand{\SubEnc}{\algo{Enc}}
 \newcommand{\SubDec}{\algo{Dec}}
 \newcommand{\SubSign}{\algo{Sign}}
-\newcommand{\SubVrfy}{\algo{Vrf}}
+\newcommand{\SubVrfy}{\algo{Vrfy}}
+\newcommand{\SubTag}{\algo{Tag}}
 \newcommand{\Setup}{\algo{Setup}}
 \newcommand{\Gen}{\algo{Gen}}
 \newcommand{\KeyGen}{\algo{KeyGen}}
@@ -557,6 +560,8 @@
 \newcommand{\Vrfy}{\algo{Vrfy}}
 \newcommand{\sign}{\algo{Sign}}
 \newcommand{\vrfy}{\algo{Vrfy}}
+\newcommand{\prove}{\algo{Prove}}
+\newcommand{\Prove}{\algo{prove}}
 \newcommand{\KEM}{\algo{KEM}}
 \newcommand{\DEM}{\algo{DEM}}
 \newcommand{\Extract}{\algo{Extract}}
@@ -623,6 +628,34 @@
 \newcommand{\create}{\mathsf{Create}}
 \newcommand{\vesvrfy}{\mathsf{VesVrfy}}
 \newcommand{\adj}{\mathsf{Adj}}
+
+\newcommand{\identification}{\mathsf{Id}}
+\newcommand{\Fakecom}{\mathsf{Fakecom}}
+\newcommand{\fakecom}{\mathsf{fakecom}}
+\newcommand{\Com}{\mathsf{Com}}
+\newcommand{\com}{\mathsf{com}}
+\newcommand{\Commit}{\mathsf{Commit}}
+\newcommand{\commit}{\mathsf{commit}}
+\newcommand{\Decom}{\mathsf{Decom}}
+\newcommand{\decom}{\mathsf{decom}}
+\newcommand{\Open}{\mathsf{Open}}
+\newcommand{\open}{\mathsf{open}}
+\newcommand{\Equivocation}{\mathsf{Equiv}}
+\newcommand{\Setup}{\mathsf{Setup}}
+\newcommand{\setup}{\mathsf{setup}}
+\newcommand{\Extract}{\mathsf{Xtr}}
+\newcommand{\Challenge}{\mathsf{Cha}} %%% there is \challenges for watermarking games
+\newcommand{\Response}{\mathsf{Res}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%TOS%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\TOS}{\mathsf{TOS}}
+\newcommand\TOSSetup{\TOS.\SubSetup\xspace}
+\newcommand\TOSKey{\TOS.\SubKey\xspace}
+\newcommand{\TOSTag}{\TOS.\SubTag\xspace}
+\newcommand{\TOSSign}{\TOS.\SubSign\xspace}
+\newcommand{\TOSVrfy}{\TOS.\SubVrfy\xspace}
+
 
 %%% Dual Pairing Vector Space
 
@@ -713,12 +746,6 @@
 \newcommand{\svalid}{\mathsf{valid}}
 \newcommand{\sinvalid}{\mathsf{invalid}}
 
-\newcommand{\fakecom}{\mathsf{Fakecom}}
-\newcommand{\com}{\mathsf{Com}}
-\newcommand{\decom}{\mathsf{Decom}}
-\newcommand{\equivocation}{\mathsf{Equiv}}
-\newcommand{\setup}{\mathsf{Setup}}
-\newcommand{\extract}{\mathsf{Xtr}}
 
 
 
